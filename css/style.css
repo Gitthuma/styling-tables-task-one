@@ -1,3 +1,4 @@
+/* Table spacing and border */
 table {
   table-layout: fixed;
   width: 100%;
@@ -19,4 +20,29 @@ thead th:nth-child(3) {
 
 thead th:nth-child(4) {
   width: 35%;
+}
+
+tbody th,
+thead th:nth-child(1) {
+  text-align: left;
+}
+
+tbody td:nth-child(2),
+thead th:nth-child(2) {
+  text-align: right;
+}
+
+tbody td:nth-child(3),
+thead th:nth-child(3) {
+  text-align: right;
+}
+
+tbody td:nth-child(4),
+thead th:nth-child(4) {
+  text-align: left;
+}
+
+th,
+td {
+  padding: 20px;
 }
