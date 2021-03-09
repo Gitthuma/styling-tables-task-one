@@ -3,7 +3,7 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: collapse;
-  border: 2px solid black;
+  border-top: 1px solid black;
 }
 
 thead th:nth-child(1) {
@@ -44,5 +44,10 @@ thead th:nth-child(4) {
 
 th,
 td {
-  padding: 20px;
+  padding: 10px;
+}
+
+tfoot {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
