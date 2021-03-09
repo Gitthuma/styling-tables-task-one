@@ -8,3 +8,5 @@ There are a number of ways that you can achieve this, but I suggest following si
 2. Align headings and data for columns containing text left.
 3. Add a top and bottom border, plus a border above the footer.
 4. Stripe every odd row of the main table.
+
+Live web: https://gitthuma.github.io/styling-tables-task-one/
